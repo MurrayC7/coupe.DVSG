@@ -630,7 +630,7 @@ def bicubic_interp(im, x, y, out_size):
 
         # use indices to lookup pixels in the flat image and restore
         # channels dim
-        im_flat = tf.reshape(im, [-1, channels])
+        im_flat = tf.reshape(im, [-1, num_channels])
 
         Is = []
         for i in range(4):
