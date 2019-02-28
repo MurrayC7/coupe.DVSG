@@ -40,6 +40,6 @@ def feature_extract(images_folder, draw_folder):
 
 
 if __name__ == '__main__':
-    images_folder = path + 'images/unstable/1' + os.sep
-    draw_folder = path + 'results/unstable/1' + os.sep + 'drawImages' + os.sep
+    images_folder = path + 'images/stable/1' + os.sep
+    draw_folder = path + 'results/stable/1' + os.sep + 'drawImages' + os.sep
     feature_extract(images_folder, draw_folder)

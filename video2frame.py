@@ -1,8 +1,8 @@
 import os
 import cv2
 
-videos_src_path = '/Users/plusub/PycharmProjects/coupe.DVSG/videos/unstable'
-videos_save_path = '/Users/plusub/PycharmProjects/coupe.DVSG/images/'
+videos_src_path = './videos/stable'
+videos_save_path = './images/stable/'
 
 videos = os.listdir(videos_src_path)
 videos = filter(lambda x: x.endswith('avi'), videos)
